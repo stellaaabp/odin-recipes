@@ -60,6 +60,21 @@ ul.nav {
     display: table;
   }
 
+  .column2 {
+    float: left;
+    width: 50%;
+    padding: 0px;
+    position: relative;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+  }
+/* Clear floats after image containers */
+  .row2::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 .text {
     position: absolute;
     top: 50%;
